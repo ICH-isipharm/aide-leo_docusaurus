@@ -1,0 +1,46 @@
+---
+sidebar_position: 2
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Gérer la vaccination assistée
+
+Après avoir créé une demande, vous pouvez réaliser et tracer l’acte vaccinal :  
+- depuis **LEO** (poste),  
+- ou depuis **LEOscan** (en mobilité). 
+
+<Tabs>
+  <TabItem value="leo" label="LEO" default>
+1. Ouvrez le menu **Suivi de paiement > Suivi des vaccinations**  
+   *(ou entrez `343` dans le champ de saisie et validez avec **Entrée**).*  
+2. Identifiez la demande de vaccination :  
+   - en scannant le QR code du ticket patient,  
+   - ou en sélectionnant la demande dans le suivi et en cliquant sur **Vacciner**.  
+3. Suivez les étapes de l’**Assistant - Vaccination du patient** :  
+   - Vérifier l’identité du patient et le vaccin,  
+   - Scanner ou saisir les données du vaccin (lot, série, péremption),  
+   - Compléter les informations d’injection (effectué par, type, site),  
+   - Enregistrer l’acte (le minuteur d’observation se déclenche si requis).  
+
+:::info
+Une tentative d’alimentation du DMP est effectuée automatiquement si l’INS du patient est qualifiée. En cas d’échec, vous pouvez relancer l’opération depuis le **Suivi des vaccinations**.
+:::
+
+  </TabItem>
+
+  <TabItem value="leoscan" label="LEOscan">
+1. Connectez-vous à l’application **LEOscan**.  
+2. Identifiez la demande :  
+   - en scannant le QR code du ticket patient,  
+   - ou en sélectionnant la demande dans la tuile **Vaccination assistée**.  
+3. Vérifiez les informations affichées puis scannez la boîte du vaccin (Datamatrix) ou saisissez les données manuellement.  
+4. Complétez les champs d’injection et appuyez sur **Injecter**.  
+5. Terminez la demande : un récapitulatif s’affiche et vous pouvez imprimer une attestation.  
+6. Surveillez le patient si une période d’observation est requise (minuteur visible dans LEO et LEOscan).  
+
+:::info
+Une tentative d’alimentation du DMP est effectuée automatiquement si l’INS du patient est qualifiée. En cas d’échec, vous pouvez retenter depuis le **Suivi des vaccinations**.
+:::
+  </TabItem>
+</Tabs>
