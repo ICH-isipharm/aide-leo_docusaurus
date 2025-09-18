@@ -1,8 +1,0 @@
-{
-  "label": "Suivi de paiement",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Retrouvez toutes les opérations effectuées après la facturation."
-  }
-}
