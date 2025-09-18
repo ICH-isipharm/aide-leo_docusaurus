@@ -22,11 +22,11 @@ Depuis l’écran d’accueil, saisissez **201** ou _délivrance sur ordonnance_
 
 Les étapes s’affichent dans des **tuiles** accessibles via le bandeau supérieur :
 
-1. [Identifier le patient](/comptoir/actions-generales/identifier-patient)
-2. [Sélectionner le prescripteur](/comptoir/actions-generales/selectionner-prescripteur)
-3. [Définir la prise en charge](/comptoir/actions-generales/definir-prise-en-charge)
-4. [Entrer les produits](/comptoir/actions-generales/saisir-produits)
-5. [Facturer la délivrance](/comptoir/actions-generales/facturer)
+1. [Identifier le patient](../comptoir/actions/identifier-patient.md)
+2. [Sélectionner le prescripteur](../comptoir/actions/selectionner-prescripteur)
+3. [Définir la prise en charge](../comptoir/actions/definir-prise-en-charge)
+4. [Entrer les produits](../comptoir/actions/saisir-produits)
+5. [Facturer la délivrance](../comptoir/actions/facturer)
 
 Tant que la délivrance n’est pas facturée, vous pouvez l’annuler avec le bouton **Abandonner**, puis confirmer par **Oui (O)**.
 
